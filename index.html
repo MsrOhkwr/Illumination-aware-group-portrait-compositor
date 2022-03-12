@@ -52,6 +52,7 @@
         <div class="material">
             <div style="text-align: left; margin-left: 3em; margin-right: 3em;">
                 <h3>Quality evaluation</h3>
+                <h4>Individual portrait compositing</h4>
                 <p>
                     The results of the quality evaluation experiment are shown below. The left side images show the side-by-side comparison between the composite images generated with our method and rendered images, and the right side images visualize the root mean square error for each pixel between the ours and the rendered ones. You can compare them while moving the slide bar, and can change the environment map with the radio buttons.
                 </p>
@@ -383,6 +384,37 @@
                     <input type="radio" id="e" value="e" name="Female_23" checked>
                     <label for="e">e</label>
                 </p>
+            </div>
+
+            <div style="text-align: left; margin-left: 3em; margin-right: 3em;">
+                <h4>Group portrait compositing</h4>
+                <p>
+                    The results of the quality evaluation experiment are shown below. The left side images show the side-by-side comparison between the composite images generated with our method and rendered images, and the right side images visualize the root mean square error for each pixel between the ours and the rendered ones. You can compare them while moving the slide bar.
+                </p>
+            </div>
+
+            <div class="comparison">
+                <div class="Gather" style="display: initial;">
+                    <div class="comparison-child side-by-side">
+                        <div class="twentytwenty-container">
+                            <img src="figures/gather/comp_tonemap.png" />
+                            <img src="figures/gather/ref_tonemap.png" />
+                        </div>
+                    </div>
+                    <img class="comparison-child diff" src="figures/gather/diff.png" />
+                </div>
+            </div>
+
+            <div class="comparison">
+                <div class="San-miguel" style="display: initial;">
+                    <div class="comparison-child side-by-side">
+                        <div class="twentytwenty-container">
+                            <img src="figures/san_miguel/comp_tonemap_gimp.png" />
+                            <img src="figures/san_miguel/ref_tonemap_gimp.png" />
+                        </div>
+                    </div>
+                    <img class="comparison-child diff" src="figures/san_miguel/diff.png" />
+                </div>
             </div>
         </div>
 
